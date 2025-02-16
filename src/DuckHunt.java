@@ -24,10 +24,10 @@ public class DuckHunt extends Application {
     @Override
     public void start(Stage primaryStage) {
 
+
         gameStage = primaryStage;
 
         Image icon = Sprites.getIcon();
-
 
         primaryStage.setScene(new TitleScreen().getScene());
         primaryStage.getIcons().add(icon);
